@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+}
+
+#header,
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    padding: 0 10%;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    margin-left: 20px;
+}
+
+.hero-container {
+    padding: 50px 10%;
+}
+
+.hero-container > * {
+    width: 100%;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header-link,
+.hero-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-button {
+    margin-top: 10px;
+    background: #3882f6;
+    color: #e5e7eb;
+    border: 0px;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: gray;
+    color: #e5e7eb;
+}
+
+.box-container {
+    padding: 50px 12.5%;
+}
+
+.box-container > * {
+    width: auto;
+}
+
+.box-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.box-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 135px;
+    padding: 50px 0;
+}
+
+.box > div:first-child {
+    height: 135px;
+    width: auto;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box-text {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.quote-container {
+    background: #e5e7eb;
+    padding: 50px 12.5%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-name {
+    text-align: right;
+    font-weight: bold;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10%;
+    padding: 5% 10%;
+    background: #3882f6;
+    border-radius: 7.5px;
+}
+
+.call-to-action-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call-to-action-text {
+    color: #e5e7eb;
+}
+
+.call-to-action-button {
+    border: 1px solid #f9faf8;
+    padding: 0 30px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    color: #e5e7eb;
+    padding: 40px;
+}
